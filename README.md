@@ -4,7 +4,7 @@ This repository contains a Jupyter notebook used for a computer tutorial for the
 
 The goal is to illustrate potential mechanisms for millenial-scale variability in the ocean using simple box models of the buoyancy-driven circulation.
 
-The original files have been prepared by Corentin Herbert in a joint work to prepare tutorial between ENS and ENS de Lyon.
+The original files have been prepared by Corentin Herbert in a joint work to prepare climate tutorials between ENS and ENS de Lyon.
 
 ## How to use
 
