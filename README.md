@@ -41,9 +41,9 @@ jupyter notebook oceanbox.ipynb # this opens a new window with Jupyter. If not, 
 
 ### Windows
 
-Open a terminal and type the following commands:
+Open a terminal (`Windows > cmd.exe`) and type the following commands:
 
-If you don't have git: install
+* If you don't have git: install
 ```https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/Git-2.39.1-64-bit.exe```
 
 then
