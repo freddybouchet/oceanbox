@@ -8,17 +8,52 @@ The original files have been prepared by Corentin Herbert in a joint work to pre
 
 ## How to use
 
-### On a local machine
+**GIT URL: https://github.com/JulieAndre27/oceanbox.git**
+
+### Linux
+
+This script will install python 3.11 and git, create a virtual environment, and install the required dependencies, and run the jupyter notebook.
+
+```
+sudo apt install git
+git clone [GIT URL SEE ABOVE]
+cd oceanbox
+source ./install.sh
+jupyter notebook oceanbox.ipynb
+```
+
+### Mac
 
 Open a terminal and type the following commands:
 
 ```
-# TODO: install git
-git clone https://github.com/freddybouchet/oceanbox.git
+brew install git
+git clone [GIT URL SEE ABOVE]
 cd oceanbox
 python -m pip install --user virtualenv
 python -m venv venv
 source venv/bin/activate
+pip install -r requirements.txt
+# ^ if you have an old python version and this last line doesn't work:
+# pip install -r requirements_adaptative.txt
+jupyter notebook oceanbox.ipynb # this opens a new window with Jupyter. If not, you can click on the link.
+```
+
+### Windows
+
+Open a terminal and type the following commands:
+
+If you don't have git: install
+```https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/Git-2.39.1-64-bit.exe```
+
+then
+
+```
+git clone [GIT URL SEE ABOVE]
+cd oceanbox
+python -m pip install --user virtualenv
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 # ^ if you have an old python version and this last line doesn't work:
 # pip install -r requirements_adaptative.txt
