@@ -13,11 +13,14 @@ The original files have been prepared by Corentin Herbert in a joint work to pre
 Open a terminal and type the following commands:
 
 ```
+# TODO: install git
 git clone https://github.com/freddybouchet/oceanbox.git
 cd oceanbox
+python -m pip install --user virtualenv
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-pip install jupyter
-jupyter notebook oceanbox.ipynb
+# ^ if you have an old python version and this last line doesn't work:
+# pip install -r requirements_adaptative.txt
+jupyter notebook oceanbox.ipynb # this opens a new window with Jupyter. If not, you can click on the link.
 ```
